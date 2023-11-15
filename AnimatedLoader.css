@@ -1,0 +1,25 @@
+  .loading {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 1000;
+    animation: dash 1.35s linear infinite;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 700
+      ;
+    }
+  }
+
+  .loading2 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash2 1s linear infinite;
+  }
+  
+  @keyframes dash2 {
+    to {
+      stroke-dashoffset: 750
+      ;
+    }
+  }
