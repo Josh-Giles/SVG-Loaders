@@ -47,4 +47,39 @@
   }
 }
 
+.embLoader{
+  animation: embAnimate 3s linear infinite;
+}
+
+@keyframes embAnimate{
+  25%{
+    transform: translateY(20px);
+  }   
+    50%{
+      transform: rotate(10deg)
+  }
+    75%{
+      transform: translateX(100px)
+  }
+    100%{
+      transform: rotate(-10deg)
+    }
+
+}
+
+.loading2 {
+  stroke-dasharray: 900;  
+  stroke-dashoffset: 1000;
+  animation: dash2 1.35s linear infinite;
+}
+
+@keyframes dash2 {
+  50% {
+    stroke-dashoffset: 700;
+  }
+  100%{
+    stroke-dashoffset: 900;
+  }
+}
+
 
